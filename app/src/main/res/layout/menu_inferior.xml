@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/imageView89"
+            android:layout_gravity="bottom"
+            android:background="#ff0043ff" />
+
+        <TableRow
+            android:layout_height="fill_parent"
+            android:gravity="center">
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/premios"
+                android:layout_column="0"
+                android:background="@drawable/gift" />
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/valores"
+                android:background="@drawable/tag"
+                android:layout_marginLeft="30dp"
+                android:layout_column="1" />
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/mensagens"
+                android:background="@drawable/message"
+                android:layout_marginLeft="30dp"
+                android:layout_column="2"/>
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/detalhes"
+                android:background="@drawable/details"
+                android:layout_marginLeft="30dp"
+                android:layout_column="3" />
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>

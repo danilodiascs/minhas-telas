@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentStart="true">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/textView_promocao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="promocaoA - x pontos"
+            android:layout_gravity="left|top"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#4040ff" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageview_itemlist_promocao"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="0dp"
+        android:layout_gravity="top"
+        android:background="#ff0043ff" />
+
+
+    <ImageView
+        android:id="@+id/imageview_excluir_promocao"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="-50dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/botao_plus"
+        android:layout_toLeftOf="@+id/botao_plus"
+        android:layout_toStartOf="@+id/botao_plus"
+        android:background="@drawable/remove"
+        android:adjustViewBounds="false" />
+</LinearLayout>
+
